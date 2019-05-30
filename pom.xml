@@ -50,6 +50,11 @@
       <version>7.7.0.Final-redhat-8</version>
       <scope>provided</scope>
     </dependency>
+    <dependency>
+      <groupId>com.entando.bpm.fsi</groupId>
+      <artifactId>credit-dispute-decisions</artifactId>
+      <version>1.0</version>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
