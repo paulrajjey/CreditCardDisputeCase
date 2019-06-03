@@ -46,7 +46,7 @@
         </work-item-handler>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new org.jbpm.process.workitem.bpmn2.BusinessRuleTaskHandler("com.entando.bpm.fsi","credit-dispute-decisions","1.0-SNAPSHOT")</identifier>
+            <identifier>new org.kie.server.client.integration.RemoteBusinessRuleTaskHandler("http://localhost:8080/kie-server/services/rest/server/containers/credit-dispute-decisions_1.0-SNAPSHOT/dmn","rhpamAdmin","jboss123$", classLoader)</identifier>
             <parameters/>
             <name>DecisionTask</name>
         </work-item-handler>
